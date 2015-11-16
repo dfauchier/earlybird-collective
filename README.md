@@ -1,3 +1,3 @@
 # earlybirdcollective.co
 
-<p>Just a little website.</p>
+<p>We're a small collective of freelancers that help early-stage companies scale.</p>
