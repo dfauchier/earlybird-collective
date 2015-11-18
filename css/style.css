@@ -8,11 +8,10 @@ body {
 	background-color: #F5F3F3; 
 	margin-right: 15px;
 	margin-left: 15px;
-		text-align: justify;
-
-
+	text-align: justify;
 
 }
+
 
 
 #cover-page {
@@ -85,6 +84,18 @@ body {
 	/* max-width: 960px; */
 	padding-top: 5%;
 }
+
+
+.typeform-widget {
+	margin: 0 auto;
+	width:80%;
+	height:100vh;
+
+}
+
+
+
+
 
 /* 
 #form .body-quote {
