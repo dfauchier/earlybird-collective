@@ -81,7 +81,6 @@ body {
 	max-width: 960px; 
 	margin: 0 auto;
 
-
 }
 
 
@@ -118,9 +117,6 @@ body {
 }
 
 
-
-}
-
 .body-section {
 	background-color: blue;
 	max-width: 750px;
@@ -156,11 +152,10 @@ body {
 	width: 45%;
 	}
 
-/*#earlybird-logo img {
-	margin-top: 15vh;
+#earlybird-logo img {
 	height: 15vh;
 
-	}*/
+	}
 
 }
 
@@ -190,11 +185,6 @@ body {
 .skill {
 	width: 30%;
 	min-width: 200px;
-	/*max-width: 250px;
-	height: 120px;
-	display: inline-block;
-	overflow: hidden;
-	/*background-color: lightblue;*/
 	float: left;
 	margin: 10px;
 	margin-top: 50px;
