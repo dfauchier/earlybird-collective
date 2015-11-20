@@ -18,6 +18,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	height: 100vh;
+	overflow: hidden;
 
 }
 
@@ -118,7 +119,6 @@ body {
 
 
 .body-section {
-	background-color: blue;
 	max-width: 750px;
 	margin: 0 auto;
 
@@ -156,6 +156,11 @@ body {
 	height: 15vh;
 
 	}
+
+#earlybird-subtitle {
+	padding-top: 0vh;
+
+	}	
 
 }
 
