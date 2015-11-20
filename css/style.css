@@ -1,25 +1,24 @@
 body {
 
 	font-family: 'Montserrat', sans-serif; 
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 200%;
 	letter-spacing: 1px;
 	color: #27273B;
 	background-color: #F5F3F3; 
 	margin-right: 15px;
 	margin-left: 15px;
-		text-align: justify;
-
-
+	text-align: justify;
 
 }
 
+/*//////////////////// COVER-PAGE ////////////////////*/
 
 #cover-page {
 	margin: 0 auto;
 	text-align: center;
 	height: 100vh;
-	background-color: #F5F3F3; 
+	overflow: hidden;
 
 }
 
@@ -74,44 +73,172 @@ body {
 
 }
 
-#scroll-affordance: onscroll {
-	visibility: hidden;
-}
+
+/*//////////////////// SECTION-1 ////////////////////*/
 
 
-
-#form {
+#section-1 {
 	height: 100vh;
-	/* max-width: 960px; */
-	padding-top: 5%;
+	max-width: 960px; 
+	margin: 0 auto;
+
+
 }
 
-/* 
-#form .body-quote {
-	font-size: 16px;
-	line-height: 180%;
-	margin-left: 20px;
-	margin-right: 10%;
+
+.body-quote {
+	display: table;
+	width: 100%;
+	margin-left: 5%;
+	margin-top: 10%;
+	overflow: hidden;
+}
+
+.body-quote .quote-line {
+	width: 5px;
+	height: 90%;
+	background-color: #27273B;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.body-quote .quote-text {
+	width: 92%;
+	max-width: 450px;
+	height: 100%;
+	margin-left: 5%;
+    overflow-y: auto;
+    display: inline-block;
 	font-style: italic;
-	text-align: justify;
+
+}
+
+.clearfix {
+	overflow: auto;
+}
+
 
 
 }
 
-#form .body-titles {
-	font-size: 17px;
-	letter-spacing: 1.2px;
-	text-transform: uppercase;
+.body-section {
+	background-color: blue;
+	max-width: 750px;
+	margin: 0 auto;
+
+}
+
+.body-titles {
+	margin-top: 10%;
+	margin-bottom: 2%;
 	font-weight: bold;
+	font-size: 120%;
+}
+
+.body-text {
+	color: #3F3F60;
 
 }
 
-#form .body-text {
-	font-size: 14px;
 
+@media (max-width:1000px) { 
+
+#section-1 {
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+}
+
+
+@media (max-width:750px) { 
+
+.skills .skill {
+	width: 45%;
+	}
+
+/*#earlybird-logo img {
+	margin-top: 15vh;
+	height: 15vh;
+
+	}*/
 
 }
-*/
+
+
+@media (max-width:500px) { 
+
+.body-quote {
+	margin-left: 0;
+	}
+
+}
+
+
+@media (max-width:425px) { 
+
+.skills .skill {
+	width: 100%;
+	}
+}
+
+
+
+/*//////////////////// SKILLS ////////////////////*/
+
+.skills {
+display: block;
+width: 100%;
+/*background-color: blue;*/
+
+}
+
+.skill {
+	width: 30%;
+	min-width: 200px;
+	/*max-width: 250px;*/
+	height: 120px;
+	display: inline-block;
+	overflow: hidden;
+	/*background-color: lightblue;*/
+	float: left;
+	margin: 10px;
+	margin-top: 50px;
+
+}
+
+.skill img {
+	display: block;
+	height: 35px;
+	margin: 0 auto;
+
+}
+
+.skill p {
+	margin-top: 25px;
+	text-align: center;
+	color: #27273B;
+
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
