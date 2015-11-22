@@ -30,7 +30,7 @@ body {
 
 
 #earlybird-logo img {
-	height: 30vh;
+	height: 25vh;
 	margin: 0 auto;
 
 }
@@ -43,9 +43,9 @@ body {
 
 
 #earlybird-text img {
-	height: 7vh;
+	height: 6vh;
 	margin: 0 auto;
-	max-width: 75%;
+	max-width: 70%;
 
 }
 
@@ -63,7 +63,7 @@ body {
 
 
 #scroll-affordance  {
-	margin-top: 18vh;
+	margin-top: 15vh;
 
 }
 
@@ -79,7 +79,6 @@ body {
 
 #section-1 {
 	height: 100vh;
-	max-width: 960px; 
 	margin: 0 auto;
 
 }
@@ -87,10 +86,9 @@ body {
 
 .body-quote {
 	display: table;
-	width: 100%;
-	margin-left: 5%;
 	margin-top: 10%;
 	overflow: hidden;
+
 }
 
 .body-quote .quote-line {
@@ -104,7 +102,6 @@ body {
 
 .body-quote .quote-text {
 	width: 92%;
-	max-width: 450px;
 	height: 100%;
 	margin-left: 5%;
     overflow-y: auto;
@@ -113,13 +110,8 @@ body {
 
 }
 
-.clearfix {
-	overflow: auto;
-}
-
 
 .body-section {
-	max-width: 750px;
 	margin: 0 auto;
 
 }
@@ -136,6 +128,7 @@ body {
 
 }
 
+/*
 
 @media (max-width:1000px) { 
 
@@ -181,18 +174,14 @@ body {
 	}
 }
 
-
+*/
 
 /*//////////////////// SKILLS ////////////////////*/
 
 
 
 .skill {
-	width: 30%;
-	min-width: 200px;
-	float: left;
-	margin: 10px;
-	margin-top: 50px;
+	margin-top: 80px;
 
 }
 
@@ -210,66 +199,50 @@ body {
 
 }
 
-.clear {
-	clear: both;
-}
+/*//////////////////// CONTACT ////////////////////*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-a button {
-	display: block;
-	margin: 0 auto;
-	height: 60px;
-	width: 120px;
-	background-color: #46A0E6;
-	color: #0F416C;
-	box-shadow: 0px 10px 20px 0px rgba(39,39,59,0.20), 0px 6px 6px 0px rgba(39,39,59,0.33);
-	border-radius: 3px;
-	border: none;
+.contact-button { 
+	color: #27273B;
+	/*color: white; */
+	background-color: #F7D144; 
+	/*background-color: #27273B;*/
+	border: none ; 
+	font-size: 20px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 10px #666666;
+	padding: 25px 50px;
 	margin-top: 50px;
-	font-family: inherit;
-	font-size: 22px;
 
+} 
+
+#contact-button  {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#contact-button p {
+	text-align: center;
 }
 
 
-button:hover {
-	background-color:#5CACE9;
-	text-decoration: none;
-	color: inherit;
-}
 
-a:hover {
-	text-decoration: none;
-	color: inherit;
-}
+.contact-button:hover, 
+.contact-button:focus, 
+.contact-button:active { 
+  color: #FFFFFF; 
+  background-color: #27273B; 
+  border: none ; 
+  text-decoration: none;
+} 
 
-a:active {
-	position:relative;
-	top:1px;
-		text-decoration: none;
 
-}
+
+
+
+
+
+
 
 
