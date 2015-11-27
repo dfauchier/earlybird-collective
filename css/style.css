@@ -27,12 +27,13 @@ body {
 
 #earlybird-logo {
 	padding-top: 10vh;
+	overflow: hidden;
 
 }
 
 
 #earlybird-logo img {
-	height: 25vh;
+	height: 120px;
 	margin: 0 auto;
 
 }
@@ -45,7 +46,7 @@ body {
 
 
 #earlybird-text img {
-	height: 6vh;
+	height: 50px;
 	margin: 0 auto;
 	max-width: 70%;
 
@@ -126,6 +127,7 @@ body {
 	font-size: 120%;
 	text-align: center;
 	text-transform: uppercase;
+	color: #174CA3;
 }
 
 .body-text {
