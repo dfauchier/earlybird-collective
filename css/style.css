@@ -307,7 +307,7 @@ body {
 }
 
 
-.emoji {
+#footer-text .emoji {
 	width: 1.2em;
 	margin-top: -2px;
 }
